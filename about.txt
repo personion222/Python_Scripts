@@ -1,0 +1,9 @@
+What it Does:
+Amp Changes takes your webcam footage, and amplifies the little changes in the image; and makes them more noticeable
+
+How it Works:
+Amp Changes takes the current frame from your webcam, and compares it to the previous frame. It then takes the changes
+from each pixel, and amplifies them, hence the name. However, I was noticing that it was amplifying little bits of
+useless noise, making it more difficult to see the important changes. To fix that, I denoised the webcam footage before
+feeding it to the program, and denoising it again after it comes out of the program, using a median filter denoising
+algorithm.
