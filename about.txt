@@ -1,0 +1,7 @@
+What it Does:
+Adaptive Temperature makes your webcam video look more cinematic, by making some portions of the image cooler (blue-er)
+and some portions of the image warmer (orange-er.)
+
+How it Works:
+Adaptive Temperature works by taking the darker pixels of your image, and making them cooler, and the lighter pixels of
+your webcam look warmer.
