@@ -1,0 +1,8 @@
+What it Does:
+Finger Mouse senses movement through your webcam, to allow you to control your mouse.
+
+How it Works:
+Finger Mouse looks through your webcam, and compares it to the last frame from your webcam. It then takes the areas with
+the most changes, and colors them white, over a black background. It then takes the average position of all the white
+pixels, and sets that to the position of your mouse. However, I found that to be a little too shaky, so I took a rolling
+average of all the previous mouse positions and used that instead of the current mouse position, as a form of denoiser.
