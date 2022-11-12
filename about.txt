@@ -1,0 +1,8 @@
+What it Does:
+Edge Detection looks at your webcam video, and detects edges within the image.
+
+How it Works:
+Edge Detection first blurs the video feed from your webcam using a box blur algorithm. It then goes through each pixel
+of the blurred image, and compares it to the original, unblurred image. If there is a large change, it will mark that
+pixel as an edge, by coloring it white. It then runs a median filter denoiser to remove any unwanted noise in the edge
+image.
