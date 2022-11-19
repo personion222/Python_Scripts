@@ -1,0 +1,10 @@
+What it Does:
+Color Ramp uses your webcam video and turns it into any stylized color palette that you would like, using a color ramp.
+It also allows you to change the amount of colors that it should be allowed to use, which can be limited to emulate
+pixel art.
+
+How it Works:
+Color Ramp goes through every pixel from your webcam video, and uses a color ramp, from any two configurable colors. For
+example, the two colors are pre-configured to be a dark blue, and a blue-ish green, to emulate a Nintendo Gameboy
+display. To simplify the image, it can also round the color, to reduce the amount of colors that will be used it the
+final image, to emulate pixel art
