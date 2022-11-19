@@ -1,0 +1,8 @@
+What it Does:
+Raycasting is a simple 3D viewer, using raycasting. Select the pygame window, with all the rays. Then, move around your
+character using WASD, and Q and E to turn left and right respectively. You can click and drag to create rectangles that
+your character can see, and right click on one to remove it. To erase all rectangles, middle click. The OpenCV window
+shows the result of all the raycasts, and acts as a sort of "perspective" for your character.
+
+How it Works:
+Raycasting works by casting rays at the objects, and returning their hit distance, which shows up on the OpenCV window.
