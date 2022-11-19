@@ -1,0 +1,8 @@
+What it Does:
+Screen Swipe works like a scanner, and goes through your webcam feed and takes an image one vertical line at a time, to
+make one "frankensteined" image.
+
+How it Works:
+Screen Swipe takes an image from your webcam, and goes through it, to take one vertical strip from it. it then puts that
+into another image, with the same y-coordinate. It then sleeps for a short amount of time, before taking the next image.
+Finally, it saves the image.
