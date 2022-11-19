@@ -1,0 +1,12 @@
+What it Does:
+Doppler Vis is a simple tool to visualize the Doppler effect in real time in an interactive fashion. Using your webcam,
+it looks for a piece of paper, and will emit "waves" in the form of circles from the location of the paper on screen, to
+show the inner workings of the Doppler effect.
+
+How it Works:
+Doppler Vis uses the color of each pixel from your webcam, and a pre-defined color (the color of the piece of paper) for
+it to look for. If a pixel is close to the color that it is looking for, it'll mark that pixel, and continue on. Once it
+is done looking through all the pixels, it will take the median position of all the marked points, and add it to a
+rolling average buffer. Using that rolling average buffer, it will draw that location on screen, as a circle, and emit
+"waves" from it in the form of circles. If the piece of paper is moved, the waves being emitted from it will as well,
+allowing you to visualize the Doppler effect in real time.
