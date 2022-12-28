@@ -1,0 +1,8 @@
+What it Does:
+Face Crop is a webcam tool that crops in on just your face, so that you can be the center of attention in your video
+calls or video recordings!
+
+How it Works:
+Face Crop works by using OpenCV and Haar Cascades to find the bounding box of your face from some live webcam footage.
+It then runs a simple cropping algorithm on the image. After which, it scales the image to a set size, meaning that the size of
+your video won't randomly change.
