@@ -1,0 +1,9 @@
+What it Does:
+Gesture Control allows you to control your mouse, using just your hand and a webcam! Now all you need is a holographic
+display, and you're basically a Hollywood character in real life!
+
+How it Works:
+Gesture Control works by using a library called Mediapipe to find the position of all your hand joints from your live
+webcam footage. It then moves the mouse to the position of your right hand's index finger. To click, it detects if your
+middle finger is folded down. If so, it'll press the left mouse button, and release it one you bring your middle finger
+back up. The least finicky way of doing this is by touching your middle finger and your thumb.
