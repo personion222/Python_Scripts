@@ -1,0 +1,11 @@
+What it Does:
+Background Remover is a simple tool to replace the background of an image. To start, move yourself, as well as any other
+objects that you would like to not be included as the background, out of the frame, and run the program. Then, you can
+move anything into the frame. The program will know that those objects weren't in the original image, and display them
+in the viewing window.
+
+How it Works:
+Background Remover works by finding how different each pixel in the current webcam image is compared to the original,
+background image, with no people in the frame. If the pixel is closer, it's probably just the background, and so it'll
+replace it with another image of your choice. if it's further away, that's probably a new object, so it'll leave that
+pixel as is.
