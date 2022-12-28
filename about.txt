@@ -1,0 +1,12 @@
+What it Does:
+Fruit Ripeness is a tool for colorblind people to find the ripeness of fruits! It currently only supports bananas, but
+more fruits will be coming (hopefully) soon. To start, simply outline the banana in your live webcam footage with a
+polygon using the left mouse button. To clear the selection, press the right mouse button. The little point on the bar
+in the top left of the screen should then move according to how ripe the banana is. If it moves to the right, then it's
+overripe. If it moves to the left, then it's underripe. To get the most accurate reading, outline the entire banana.
+
+How it Works:
+Fruit Ripeness works by taking the average color of the area within the polygon, and calculates a "ripeness score" using
+the hue, saturation, and value of the banana, with hand-picked weights. To help you outline the banana, it finds the
+edges in the webcam image, and tries to snap all the points in the polygon to an edge, to stop you from outlining just a
+bit out of the banana, throwing off the average.
